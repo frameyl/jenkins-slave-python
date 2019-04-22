@@ -2,7 +2,7 @@
 FROM openshift/jenkins-slave-base-centos7
 
 # specify wanted version of python
-ENV PYTHON_VERSION 3.6.1
+ENV PYTHON_VERSION 3.6.8
 
 # install python
 RUN set -x \
@@ -26,4 +26,4 @@ USER 1001
 
 # TODO: setup virtualenv?
 # RUN set -x \
-#    && pip install virtualenv
+#     && pip install 
